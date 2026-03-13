@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvNamaDosen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang, [Nama Dosen]"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvMataKuliah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mata Kuliah: [Mata Kuliah]"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/inputJumlahMahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Jumlah Mahasiswa (Cth: 30)"
+        android:inputType="number"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnGenerate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tampilkan Daftar Mahasiswa"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvStatusKelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status Kelas: -"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginBottom="8dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F0F0F0">
+
+        <TextView
+            android:id="@+id/tvHasilGenerate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Daftar penilaian mahasiswa akan otomatis tercetak di sini..."
+            android:textSize="14sp"/>
+    </ScrollView>
+
+</LinearLayout>
