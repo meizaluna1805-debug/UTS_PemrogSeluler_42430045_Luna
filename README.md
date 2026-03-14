@@ -12,9 +12,9 @@ Aplikasi ini adalah sistem generator lembar penilaian mahasiswa yang dibangun me
 ## Dokumentasi Tampilan Aplikasi
 
 ### 1. Halaman Login (Portrait & Landscape)
-*(Masukkan foto screenshot portrait di sini)*
-*(Masukkan foto screenshot landscape di sini)*
+![Login Portrait](dokumentasi/potrait.jpeg)
+![Login Landscape](dokumentasi/Landscape.jpeg)
 
 ### 2. Halaman Panel Generator (Input & Hasil)
-*(Masukkan foto screenshot saat mengisi angka di sini)*
-*(Masukkan foto screenshot hasil generate di sini)*
+![Panel Input](dokumentasi/mengisi.jpeg)
+![Panel Hasil](dokumentasi/angka.jpeg)
