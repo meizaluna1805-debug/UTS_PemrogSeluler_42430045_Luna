@@ -12,9 +12,9 @@ Aplikasi ini adalah sistem generator lembar penilaian mahasiswa yang dibangun me
 ## Dokumentasi Tampilan Aplikasi
 
 ### 1. Halaman Login (Portrait & Landscape)
-![Login Portrait](dokumentasi/potrait.jpeg)
-![Login Landscape](dokumentasi/Landscape.jpeg)
+<img src="dokumentasi/potrait.jpeg" width="250">
+<img src="dokumentasi/Landsape.jpeg" width="500">
 
 ### 2. Halaman Panel Generator (Input & Hasil)
-![Panel Input](dokumentasi/mengisi.jpeg)
-![Panel Hasil](dokumentasi/angka.jpeg)
+<img src="dokumentasi/mengisi.jpeg" width="250">
+<img src="dokumentasi/angka.jpeg" width="250">
